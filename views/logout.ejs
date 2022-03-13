@@ -1,0 +1,21 @@
+<%- include('partials/header') %>
+
+<!-- <div class="jumbotron text-center">
+
+</div> -->
+<div class="container">
+  <nav class="navbar navbar-dark bg-primary justify-content-between">
+    <a class="btn btn-light ml-auto" href="/api/logout" role="button">Log Out</a>
+  </nav>
+  <div class="card" style="width: 30rem;">
+    <div class="card-body text-center">
+      <h5 class="card-title"> User Details </h5>
+      <h6 class="card-subtitle mb-2 text-muted">Firstname: <%= user.firstname %> </h6>
+      <h6 class="card-subtitle mb-2 text-muted">Lastname: <%= user.lastname %> </h6>
+      <h6 class="card-subtitle mb-2 text-muted">Email: <%= user.email %> </h6>
+    </div>
+  </div>
+  <!-- <p> <%= user %> </p> -->
+</div>
+
+<%- include('partials/footer') %>
